@@ -5,23 +5,74 @@ body {
     width: 1200px;
     height: 50px;
     padding: 30px;
-    display: inline-flex;
+    display: inline-block;
     /*background-color: silver;*/
 }
 .head-box nav {
-    display: inline-flex;
+    display: inline-block;
+    position: absolute;
     margin-left: calc(30%);
     margin-top: 10px;
 }
+
 .head-box nav a {
     margin: 10px;
+    color: black;
+    text-decoration: none;
 }
 .head-box select {  
-    margin-left: calc(30%);  
+    display: inline-block;
+    position: absolute;
+    margin-left: calc(80%);
+    margin-top: 10px;  
 }
-.clickbtn {
-    width: 500px;
-    height: 200px;
-    padding: 20px;
+
+
+.button {
+    display: inline-block;
+    background: greenyellow;
+    color: black;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 60px;
+    cursor: pointer;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #222222dd;
+    backdrop-filter: blur(2px);
+    display: none;
+}
+.newform {
+    position: absolute;
+    width: 500px;    
+    left: calc(50%);
     background-color: silver;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+#btn:checked+.button {
+    background-color: silver;
+    color: #000;
+}
+#btn:checked ~ .modal {
+    display: block;
+}
+.close {
+    display: inline-block;
+    position: relative;
+}
+.receive {
+    display: inline-block;
+    background: gray;
+    color: black;
+    padding: 1rem;
+    text-decoration: none;
+    cursor: pointer;
 }

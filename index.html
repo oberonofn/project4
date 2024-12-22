@@ -13,9 +13,9 @@
                     <img src="images/edspace.png"/>
                 </a>
                 <nav>
-                    <a href="#first">Возможности</a>
-                    <a href="#cost">Стоимость</a>
-                    <a href="#third">Контакты</a>
+                    <a href="#first" >Возможности</a>
+                    <a href="#cost" >Стоимость</a>
+                    <a href="#third" >Контакты</a>
                 </nav>
                 <select>
                     <option value="RU">RU</option>
@@ -28,9 +28,10 @@
             <div>Ваши знания и экспертность обретут здесь форму</div>
         </h1>
         <span>Мощный инструмент для организации обучения. Ваши ученики будут в восторге! </span>
-        <button>Попробовать бесплатно</button>
         <img src="images/null.png"/>
     </section>
+    <input type="checkbox" id="btn">
+    <label for="btn" class="button">Попробовать бесплатно</i></label>
     <section>
         <h2>Точно подойдет для:</h2>
         <article>
@@ -43,8 +44,9 @@
             <h3>Создания корпоративного обучения</h3>
             <p>Поможем перенести корпоративную академию, базу данных, учебные курсы, настроим систему мотивации обучения, круглосуточная поддержка.</p>
         </article>
-        <button>Попробовать бесплатно</button>
     </section>
+    <input type="checkbox" id="btn">
+    <label for="btn" class="button">Попробовать бесплатно</i></label>
     <section id="first">
         <h2>Возможности Ed Space</h2>
         <p>Поможем перенести корпоративную академию, базу данных, учебные курсы, настроим систему мотивации обучения, круглосуточная поддержка.</p>
@@ -78,8 +80,9 @@
             <h3>Записи хранятся на платформе</h3>
             <p>Спланируйте расписание курсов самым удобным образом. Больше никаких накладок и переносов.</p>
         </article>
-        <button>Попробовать бесплатно</button>
     </section>
+    <input type="checkbox" id="btn">
+    <label for="btn" class="button">Попробовать бесплатно</i></label>
     <section id="second">
         <h2>Выбирайте Ed Space
             <div>сегодня и вы получите</div>
@@ -99,7 +102,10 @@
     <section id="cost">
         <h3>Цена 250 рублей за 1 ученика в месяц</h3>
         <h6>Все готово для запуска. Попробуйте 7-дневный демо-доступ.</h6>
-        <button>Попробуйте бесплатно</button>
+    </section>
+    <input type="checkbox" id="btn">
+    <label for="btn" class="button">Попробовать бесплатно</i></label>
+    <section>
         <h2>Точно подойдет для:</h2>
         <h3>Любых онлайн-школ</h3>
         <p>Быстрый запуск, лекгое управление, все инструменты в одной платформе.</p>
@@ -109,31 +115,34 @@
         <p>Надежная защита, бесперебойная работа и высокая производительность системы позволит наслаждаться процессом обучния.</p>
         <img src="images/null.png"/>  
     </section>
-    <section class="clickbtn">
-        <img src="images/edspace.png"/>
-        <div>
-            <label>Имя Фамилия</label>
-            <input type="text"/>
+    <section class="modal">
+        <div class="newform">
+            <img src="images/edspace.png"/>
+            <label for="btn" class="close" ><img src="images/closeicon.png"></label>
+            <div>
+                <label for="example">Имя Фамилия</label>
+                <input id="example" type="text"/>
+            </div>
+            <div>
+                <label for="example">Название организации</label>
+                <input id="example" type="text"/>
+            </div>
+                <label for="example">Должность</label>
+                <input id="example" type="text"/>
+            <div>
+                <label for="example">Email</label>
+                <input id="example" type="text"/>
+            </div>
+            <div>
+                <label for="example">Телефон</label>
+                <input id="example" type="text"/>
+            </div>
+            <div>
+                <label for="example">Я согласен на обработку моих <u>персональных данных</u></label>
+                <input id="example" type="checkbox"/>
+            </div>
+            <label for="btn" class="receive" >ОТПРАВИТЬ</label>
         </div>
-        <div>
-            <label>Название организации</label>
-            <input type="text"/>
-        </div>
-            <label>Должность</label>
-            <input type="text"/>
-        <div>
-            <label>Email</label>
-            <input type="text"/>
-        </div>
-        <div>
-            <label>Телефон</label>
-            <input type="text"/>
-        </div>
-        <div>
-            <input type="checkbox"/>
-            <label>Я согласен на обработку моих <u>персональных данных</u></label>
-        </div>
-        <button>ОТПРАВИТЬ</button>
     </section>
     <section id="third">
         <a href="#">
