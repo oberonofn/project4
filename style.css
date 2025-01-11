@@ -2,11 +2,11 @@ body {
     font-family: sans-serif;
 }
 .head-box {
-    width: 1200px;
+    width: 1140px;
     height: 50px;
     padding: 30px;
     display: inline-block;
-    /*background-color: silver;*/
+    background-color: silver;
 }
 .head-box nav {
     display: inline-block;
@@ -27,6 +27,43 @@ body {
     margin-top: 10px;  
 }
 
+.firstsect {
+    display: block;
+    width: 1200px;
+    background-color: lightgray;   
+}
+.secondsect {
+    display: block;
+    width: 1200px;
+    background-color: gray;
+}
+.thirdsect {
+    display: block;
+    width: 1200px;
+    background-color: silver;
+}
+.fourthsect {
+    display: block;
+    width: 1200px;
+    background-color: silver;
+}
+.fifthsect {
+    display: block;
+    width: 1200px;
+    background-color: silver;
+    margin-bottom: 5px;
+}
+.sixthsect {
+    display: block;
+    width: 1200px;
+    background-color: silver;
+}
+
+.lastsect {
+    display: block;
+    width: 1200px;
+    background-color: silver;
+}
 
 .button {
     display: inline-block;
